@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .Layout-Implicit {
+    grid-auto-flow: row dense;
+    grid-column: 2 / 12;
+  }
+}
+

@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .App-Card_size_s {
+        grid-column: span 3;
+        max-height: 190px;
+    }
+
+    .App-Card_withoutImage {
+        max-height: 190px;
+    }
+}

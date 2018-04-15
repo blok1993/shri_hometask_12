@@ -1,0 +1,20 @@
+.App-Card_size_m {
+    grid-column: span 3;
+}
+
+.App-Card_size_m .App-Card-Title {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.App-Card_size_m .App-Card-Description {
+    display: flex;
+    flex-shrink: 1;
+    overflow: hidden;
+    max-height: 60px;
+}
+
+.App-Card_size_m .App-ChannelName {
+    display: none;
+}

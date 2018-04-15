@@ -1,0 +1,98 @@
+.App-Card_size_s {
+    grid-column: span 2;
+    min-height: 190px;
+    overflow: hidden;
+}
+
+.App-Card_size_s .App-Card-Picture {
+    position: static;
+    margin-top: 0;
+}
+
+.App-Card_size_s .App-Card-Picture img {
+    position: absolute;
+    bottom: 0;
+}
+
+.App-Card_size_s .App-Card-Title {
+    position: relative;
+    top: initial;
+    left: initial;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.App-Card_size_s .App-Card-Description {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 0;
+}
+
+.App-Card_size_s .App-Controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-grow: 1;
+    z-index: 1;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.App-Card_size_s .App-ChannelName {
+    display: none;
+}
+
+.App-Card_withoutImage {
+    max-height: 21.5vw;
+}
+
+.App-Card_withoutImage .App-Card-Title {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.App-Card_withoutImage .App-Card-Picture {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+}
+
+.App-Card_withoutImage .App-Card-Description {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.App-Card_withoutImage .App-Card-Description-Text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.App-Card_withoutImage .App-Controls {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.App-Card_withoutImage .App-ChannelName {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    font-size: 12px;
+}
+
+.App-Card_withoutImage .App-control {
+    display: flex;
+    margin-left: 10px;
+}
+
+.App-Card_withoutImage img {
+    display: none;
+}

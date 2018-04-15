@@ -1,0 +1,11 @@
+.App-Control {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.App-Control:hover {
+    opacity: 0.5;
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .App-Card_size_m {
+        grid-column: span 6;
+    }
+
+    .App-Card_size_m .App-Card-Picture {
+        margin-top: 0;
+    }
+
+    .App-Card_size_m .App-Card-Title {
+        position: relative;
+    }
+}

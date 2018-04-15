@@ -1,0 +1,5 @@
+@media screen and (max-width: 480px) {
+  .Layout-Implicit {
+    grid-column: 2 / 12;
+  }
+}

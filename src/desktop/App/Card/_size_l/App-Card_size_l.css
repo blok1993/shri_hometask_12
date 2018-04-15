@@ -1,0 +1,26 @@
+.App-Card_size_l {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px 16px;
+    grid-template-rows: 40px auto;
+    max-height: 23vw;
+    overflow: hidden;
+}
+
+.App-Card_size_l .App-Card-Picture {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.App-Card_size_l .App-Card-Title {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.App-Card_size_l .App-Card-Description {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.App-Card_size_l .App-Controls {
+    display: none;
+}

@@ -1,0 +1,35 @@
+.App-Card {
+    grid-row: span 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.App-Card .App-Card-Picture img {
+    width: 100%;
+}
+
+.App-Card .App-Card-Title {
+    font-size: 19px;
+    padding-bottom: 10px;
+    background: #fff;
+}
+
+.App-Card .App-Card-Description {
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.App-Card .App-Controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.App-Card .App-ChannelName {
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .Layout-Header {
+    grid-column: 2 / 12;
+  }
+}

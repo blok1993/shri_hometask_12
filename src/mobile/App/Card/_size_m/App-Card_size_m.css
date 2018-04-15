@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .App-Card_size_m .App-Card-Title {
+        position: relative;
+    }
+
+    .App-Card_size_m .App-Card-Picture {
+        margin-top: 0;
+    }
+}
