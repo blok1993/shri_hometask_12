@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { decl, Bem } from 'bem-react-core';
 
 import Header from 'e:Header';
@@ -8,12 +8,10 @@ export default decl({
   block: 'App',
   content() {
     return (
-      <Fragment>
         <Bem elem="Layout">
           <Header/>
           <LayoutImplicit/>
         </Bem>
-      </Fragment>
     );
   }
 });
