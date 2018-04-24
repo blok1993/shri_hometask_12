@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import { decl } from 'bem-react-core';
 
 export default decl({
@@ -6,11 +5,5 @@ export default decl({
   elem: 'Control',
   mods({ type }) {
     return { type };
-  },
-  content() {
-    return (
-      <Fragment>
-      </Fragment>
-    );
   }
 });

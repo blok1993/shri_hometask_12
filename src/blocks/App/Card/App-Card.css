@@ -5,24 +5,24 @@
     flex-direction: column;
 }
 
-.App-Card .App-Card-Picture img {
+.App-Card-Picture img {
     width: 100%;
 }
 
-.App-Card .App-Card-Title {
+.App-Card-Title {
     font-size: 19px;
     padding-bottom: 10px;
     background: #fff;
 }
 
-.App-Card .App-Card-Description {
+.App-Card-Description {
     font-size: 14px;
     color: #000000;
     line-height: 20px;
     margin-top: 8px;
 }
 
-.App-Card .App-Controls {
+.App-Controls {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +30,6 @@
     margin-left: 10px;
 }
 
-.App-Card .App-ChannelName {
+.App-ChannelName {
     font-weight: bold;
 }

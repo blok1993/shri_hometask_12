@@ -7,31 +7,27 @@ import Card from 'e:Card m:size_s m:size_m m:size_l';
 export default decl({
   block: 'Layout',
   elem: 'Implicit',
-  tag: 'div',
   content() {
     return (
       <Fragment>
           {
-            zenData.map((element) => {
+            zenData.map((element, idx) => {
               let srcSet = '';
               let initialSrc = '';
-              let withoutImage = false;
 
               if(element.image) {
                 //Формируем элемент img и его атрибут srcset
                 let imgUrl = element.image;
 
-                let imgUrlPart1 = imgUrl.split('.')[0];
-                let imgUrlPart2 = imgUrl.split('.')[1];
+                const [imgUrlPart1, imgUrlPart2] = imgUrl.split('.');
                 srcSet = imgUrl + " 320w, " + imgUrlPart1 + "@2x." + imgUrlPart2 + " 480w, " + imgUrlPart1 + "@3x." + imgUrlPart2 + " 768w";
                 initialSrc = imgUrlPart1 + "@3x." + imgUrlPart2;
-              } else {
-                withoutImage = true;
               }
 
               return <Card
+                  key={idx}
                   size={element.size}
-                  withoutImage={withoutImage}
+                  withoutImage={!element.image}
                   title={element.title}
                   titleColor={element.titleColor}
                   imgUrl={initialSrc}
